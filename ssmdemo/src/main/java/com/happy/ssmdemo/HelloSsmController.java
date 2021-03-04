@@ -9,7 +9,7 @@ public class HelloSsmController {
 
         @GetMapping("/hello")
         public String index(ModelMap map) {
-            map.addAttribute("host", "http://good.hellossm-happy.com");
+            map.addAttribute("host", "hellossm-happy");
             return "index";
         }
 }
